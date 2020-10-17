@@ -20,13 +20,6 @@
   height: 100vh;
 }
 
-.xime-photo {
-  background-image: url("./graphics/XIME-Photo.png");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
