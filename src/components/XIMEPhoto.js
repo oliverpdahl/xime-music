@@ -21,7 +21,20 @@ function XIMEPhoto(props) {
       <div style={{ ...consistentStyle, backgroundSize: "cover" }}></div>
     );
 
-  return <div>{ToRender}</div>;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: "0px",
+        top: "0px",
+        zIndex: "2",
+        height: "100vh",
+        width: "100%",
+      }}
+    >
+      {ToRender}
+    </div>
+  );
 }
 
 export default sizeMe({ monitorHeight: true })(XIMEPhoto);
